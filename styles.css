@@ -1,6 +1,7 @@
 :root {
     --color1: #D89584;
     --color2: white;
+    --color3: #F4F4F4;
 }
 
 body {
@@ -31,13 +32,18 @@ h1 {
     margin-bottom: 8px;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
 a {
     outline: none;
     text-decoration: none;
 }
 
 div.cover p {
-    color: var(--color2);
+    color: lightgrey;
     text-align: center;
     margin: 0;
 }
@@ -89,4 +95,27 @@ div.cover-contact p {
 
 div.cover-contact p:first-child {
     margin-bottom: 4px;
+}
+
+.section {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.grey-section1 {
+    background: url(assets/triangle2white.svg) no-repeat bottom/100%;
+    background-color: var(--color3);
+    padding-bottom: 200px;
+}
+
+div.white-section {
+    height: 300px;
+}
+
+div.grey-section2 {
+    background: url(assets/triangle1white.svg) no-repeat top/100%;
+    background-color: var(--color3);
+    padding-top: 200px;
 }
