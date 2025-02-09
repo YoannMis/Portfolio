@@ -36,13 +36,13 @@ h1 {
     margin-bottom: 8px;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
     margin-top: 0;
 }
 
 h3 {
-    text-align: center;
+    font-size: 30px;
 }
 
 a {
@@ -63,7 +63,6 @@ div.contact-btn {
 
 a.contact-btn {
     color: var(--color1);
-    /* font-weight: bold; */
     font-size: 14px;
     border: 2px solid var(--color1);
     background-color: #00000040;
@@ -191,17 +190,21 @@ table.right-table {
 
 .frame {
     background-color: white;
-    /* margin: 40px 8px 40px 8px;
-    padding: 0px 8px 20px 8px; */
+    margin: 30px 50px;
+    padding: 20px 30px;
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
-.col-left {
+/* .col-left {
     width: 30%;
 }
 
 .col-right {
     width: 70%;
+} */
+
+.col-frame {
+    width: 100%;
 }
 
 .photo-profile {
@@ -211,7 +214,63 @@ table.right-table {
     border-radius: 50%;
 }
 
-div.frame table {
+/* div.frame table {
     margin-left: auto;
     margin-right: auto;
+} */
+
+/* PORTFOLIO */
+.portfolio-header {
+    height: 90px;
+    background: url(assets/header.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+.portfolio-header-title {
+    color: var(--color4);
+    font-size: 26px;
+}
+
+div.text.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 45px;
+}
+
+div.contact-btn.header {
+    margin-top: 0;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+.portfolio-back {
+    color: var(--color1);
+}
+
+.title-link {
+    position: absolute;
+    top: 20px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.title-link:hover {
+    color: var(--color1);
+    border-bottom: 1px solid;
+}
+
+.portfolio-h1 {
+    color: black;
+    font-size: 46px;
+    margin-bottom: 0;
+    margin-top: 22px;
+    line-height: 1;
+}
+
+.portfolio-h2 {
+    color: black;
+    font-size: 26px;
+    font-weight: normal;
 }
