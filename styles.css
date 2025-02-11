@@ -121,7 +121,7 @@ div.grey-section1 {
 div.grey-section2 {
     background: url(assets/triangle1white.svg) no-repeat top/100%;
     background-color: var(--color3);
-    padding-top: 200px;
+    padding-top: 60px;
 }
 
 .separator {
@@ -140,11 +140,11 @@ div.grey-section1 p {
     max-width: 450px;
 }
 
-.col-40 {
+img.section-content {
     width: 40%;
 }
 
-.col-60 {
+div.section-content {
     width: 60%;
 }
 
@@ -195,13 +195,9 @@ table.right-table {
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* .col-left {
-    width: 30%;
+.display-mobile {
+    display: none;
 }
-
-.col-right {
-    width: 70%;
-} */
 
 .col-frame {
     width: 100%;
@@ -213,11 +209,6 @@ table.right-table {
     border: 2px solid whitesmoke;
     border-radius: 50%;
 }
-
-/* div.frame table {
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 /* PORTFOLIO */
 .portfolio-header {
@@ -274,3 +265,76 @@ div.contact-btn.header {
     font-size: 26px;
     font-weight: normal;
 }
+
+/* RESPONSIVE DESIGN: MOBILE */
+@media only screen and (max-width: 768px) {
+    img.cover-profile {
+        height: 100px;
+        width: 100px;
+        margin-left: -55px; 
+        margin-top: 75px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        margin-top: 6px;
+    }
+
+    div.cover p {
+        font-size: 14px;
+    }
+
+    div.contact-btn {
+        margin-top: 30px;
+    }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    div.grey-section1 {
+        padding-bottom: 40px;
+    }
+
+    div.grey-section1 p {
+        font-size: 18px;
+    }
+
+    h2, h3 {
+        font-size: 22px;
+    }
+
+    img.section-content {
+        width: 100%;
+    }
+
+    div.section-content {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .float-right {
+        padding-left: 0px;
+    }
+
+    .col-portfolio {
+        width: 100%;
+    }
+
+    div.vertical-bar {
+        margin-right: 10px;
+    }
+
+    .frame {
+        margin: 0 0 50px 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .display-mobile {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+  }
