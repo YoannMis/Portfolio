@@ -12,6 +12,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+iframe {
+    width: 100%;
+    border: none;
+    height: 350px;
+}
+
 div.cover {
     background: url(assets/cover_overlay.png) no-repeat center/100% 100%, url(assets/cover.jpg) no-repeat center/cover;
     height: 360px;
@@ -114,14 +120,14 @@ div.cover-contact p:first-child {
 div.grey-section1 {
     background: url(assets/triangle2white.svg) no-repeat bottom/100%;
     background-color: var(--color3);
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
 div.grey-section2 {
     background: url(assets/triangle1white.svg) no-repeat top/100%;
     background-color: var(--color3);
-    padding-top: 60px;
+    padding-top: 130px;
 }
 
 .separator {
@@ -203,7 +209,11 @@ table.right-table {
     width: 100%;
 }
 
-.photo-profile {
+.col-frame-left {
+    padding-right: 10px;
+}
+
+img.photo-profile {
     height: 100px;
     width: 100px;
     border: 2px solid whitesmoke;
@@ -294,7 +304,11 @@ div.contact-btn.header {
     }
 
     div.grey-section1 {
-        padding-bottom: 40px;
+        padding-bottom: 50px;
+    }
+
+    div.grey-section2 {
+        padding-top: 65px;
     }
 
     div.grey-section1 p {
@@ -320,6 +334,7 @@ div.contact-btn.header {
 
     .col-portfolio {
         width: 100%;
+        margin-bottom: 15px;
     }
 
     div.vertical-bar {
@@ -337,4 +352,10 @@ div.contact-btn.header {
         margin-top: 10px;
         margin-bottom: 30px;
     }
+
+    img.photo-profile {
+        height: 80px;
+        width: 80px;
+    }
+    
   }
