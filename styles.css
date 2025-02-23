@@ -25,10 +25,8 @@ div.cover {
 }
 
 img.cover-profile {
-    height: 125px;
-    width: 125px;
-    border: 2px solid whitesmoke;
-    border-radius: 50%;
+    height: 150px;
+    width: 150px;
     position: relative;
     left: 50%;
     margin-left: -75px;
@@ -64,13 +62,14 @@ div.cover p {
 
 div.contact-btn {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 a.contact-btn {
     color: var(--color1);
     font-size: 14px;
     border: 2px solid var(--color1);
+    border-radius: 5px;
     background-color: #00000040;
     padding: 8px 20px;
 }
@@ -117,6 +116,10 @@ div.cover-contact p:first-child {
     overflow: auto;
 }
 
+a.social-link {
+    display: block;
+}
+
 div.grey-section1 {
     background: url(assets/triangle2white.svg) no-repeat bottom/100%;
     background-color: var(--color3);
@@ -143,7 +146,7 @@ div.grey-section1 p {
     color: var(--color5);
     margin-left: auto;
     margin-right: auto;
-    max-width: 450px;
+    max-width: 550px;
 }
 
 img.section-content {
@@ -216,8 +219,6 @@ table.right-table {
 img.photo-profile {
     height: 100px;
     width: 100px;
-    border: 2px solid whitesmoke;
-    border-radius: 50%;
 }
 
 /* PORTFOLIO */
@@ -279,8 +280,8 @@ div.contact-btn.header {
 /* RESPONSIVE DESIGN: MOBILE */
 @media only screen and (max-width: 768px) {
     img.cover-profile {
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
         margin-left: -55px; 
         margin-top: 75px;
     }
@@ -295,7 +296,7 @@ div.contact-btn.header {
     }
 
     div.contact-btn {
-        margin-top: 30px;
+        margin-top: 25px;
     }
 
     .section {
