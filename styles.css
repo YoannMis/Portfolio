@@ -298,6 +298,19 @@ div.portfolio p {
         margin-left: -55px; 
         margin-top: 75px;
     }
+
+    .portfolio-header-title {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    div.contact-btn.header {
+        top: 32px;
+    }
+
+    div.header a.contact-btn {
+        font-size: 11px;
+    }
     
     h1, .portfolio-h1 {
         font-size: 30px;
@@ -379,19 +392,6 @@ div.portfolio p {
     img.photo-profile {
         height: 80px;
         width: 80px;
-    }
-
-    .portfolio-header-title {
-        font-size: 22px;
-        padding-top: 5px;
-    }
-    
-    div.contact-btn.header {
-        top: 32px;
-    }
-
-    div.header a.contact-btn {
-        font-size: 12px;
     }
     
     div.portfolio img {
